@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #4a4a4a);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.app-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: none; 
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 30px; 
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.get-app {
+    margin: 30px 0; 
+}
+
+.appstore-button {
+    width: 150px;
+    transition: transform 0.2s ease;
+}
+
+.appstore-button:hover {
+    transform: scale(1.1);
+}
+
+.feedback-button {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-top: 30px; 
+}
+
+.feedback-button:hover {
+    background: #ffdb4d;
+}
